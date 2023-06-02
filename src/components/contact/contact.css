@@ -1,0 +1,123 @@
+#contact{
+    margin-top: 130px;
+    padding: 50px 0;
+}
+.contact_container{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 90px;
+    
+}
+.contact_options{
+    /* width: 30%; */
+    text-align: center;
+}
+.contact_email{
+    background-color: #0e0e6a;
+    margin-bottom: 20px;
+   padding: 40px;
+   border-radius: 10px;
+   
+}
+.contact_email:hover{
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;
+    transition: 1s;
+}
+.contact_watsup{
+    background-color: #440f5c;
+    padding: 40px;
+    border-radius: 10px;
+    
+}
+.contact_watsup:hover{
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;
+    transition: 1s;
+}
+form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    
+}
+form input{
+    margin-bottom: 30px;
+    width: 80%;
+    padding: 10px;
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;;
+    color: white;
+}
+form textarea{
+    width: 80%;
+    margin-bottom: 30px;
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;;
+    color: white;
+}
+form button{
+    width: 100px;
+    padding: 10px 24px;
+    border-radius: 2px;
+    background-color: rgb(215 174 2);
+    color: white;
+    
+}
+form button:hover{
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;
+    transition: 1s;
+}
+.contact_container h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact_container h5{
+    margin-bottom: 8px;
+}
+@media screen and (max-width:900px) {
+    .contact_container{
+        flex-direction: column;
+    }
+    .contact_options{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    form{
+        margin: 0 auto;
+        width: 100%;
+    }
+    form input{
+        width: 100%;
+    }
+    form textarea{
+        width: 100%;
+    }
+    .contact_email{
+        padding: 15px;
+    }
+    .contact_watsup{
+        padding: 15px;
+    }
+}
+@media screen and (max-width:700px) {
+    .contact_email{
+        padding: 10px;
+    }
+    .contact_watsup{
+        padding: 10px;
+    }
+    #contact{
+        padding: 30px 0;
+        margin-top: 70px;
+
+    }
+    #contact h2{
+        font-size: 22px;
+    }
+    .contact_container{
+        padding-top: 40px;
+    }
+}

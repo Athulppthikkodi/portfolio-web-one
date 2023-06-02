@@ -1,0 +1,137 @@
+#about{
+    margin-top: 130px;
+    padding: 50px 0;
+}
+.about_container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 100%;
+    position: relative;
+    padding-top: 60px;
+    align-items: flex-start;
+}
+h2 ,h5{
+    text-align: center;
+}
+.about_me{
+background-color: #f2efff21;
+padding: 10px;
+border-radius: 15px;
+}
+.about_me_img img{
+    display: flex;
+    width: 100%;
+   /* height: 420px; */
+    transform: rotate(-10deg);
+    transition: 1s;
+    
+}
+.about_me_img img{
+    border-radius: 15px;
+}
+.about_me_img img:hover{
+    transform: rotate(0deg);
+}
+
+.about_cards{
+    display: flex;
+    justify-content: center;
+    gap:20px; 
+}
+.card_experience{
+    background-color: #0e0e6a;
+    width: 50%;
+    border-radius: 10px;
+    padding: 15px 5px;
+
+}
+.card_experience:hover{
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;
+    transition: 1s;
+}
+.card_projects{
+    background-color: #440f5c;
+    width: 50%;
+    border-radius: 10px;
+    padding: 15px 5px;
+}
+.card_projects:hover{
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;
+    transition: 1s;
+}
+.about_content{
+    margin-left: 80px;
+}
+.about_description{
+    margin-top: 50px;
+}
+.about_btn{
+    margin-top: 20px;
+}
+.about_btn a{
+    padding: 10px 24px;
+    border-radius: 2px;
+    background-color: rgb(215 174 2);
+    color: white;
+}
+.about_btn a:hover{
+    background: var(--color-bg);
+    outline: 1px solid #a17373e6;
+}
+h2{
+    margin-bottom: 4px;
+}
+@media screen and (max-width:600px) {
+    .about_container{
+        flex-direction: column;
+    }
+    .about_me{
+        margin-bottom: 80px;
+    }
+    .about_me_img{
+        /* width: 300px; */
+    }
+    
+    .card_experience h2{
+        font-size: 18px;
+    }
+    .card_experience h5{
+        font-size: 13px;
+    }
+    .card_projects h2{
+        font-size: 18px;
+    }
+
+
+    /* .about_cards{
+        display: block;
+        margin-bottom: 20px;
+    } */
+    .about_content{
+        margin-left: 0;
+    }
+    #about h2{
+        font-size: 22px;
+    }
+    #about .about_content h2{
+        font-size: 18px;
+    }
+    .card_experience{
+        width: 100%;
+        padding: 15px 20px;
+    }
+    .card_projects{
+        width: 100%;
+        padding: 15px 20px;
+    }
+    #about{
+        padding: 30px 0;
+        margin-top: 70px;
+    }
+    .about_description p{
+        font-size: 13px;
+    }
+}
