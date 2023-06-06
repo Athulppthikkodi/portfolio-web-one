@@ -5,7 +5,7 @@ import headImg from "../../assets/headImg.png"
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
-    <header >
+    <header id="home" >
       <div className='container header-container'>
       <h5>Hello, I'm</h5>
       <h1>Athul P P</h1>
