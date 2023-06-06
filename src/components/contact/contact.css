@@ -52,6 +52,7 @@ form input{
 form textarea{
     width: 80%;
     margin-bottom: 30px;
+    padding: 10px;
     background: var(--color-bg);
     outline: 1px solid #a17373e6;;
     color: white;

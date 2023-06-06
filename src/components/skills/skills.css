@@ -35,6 +35,7 @@
 .skills_progress h3{
     display: flex;
     justify-content: space-between;
+    margin-bottom: 2px;
 }
 
 .bar span{

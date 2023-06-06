@@ -22,7 +22,7 @@ const Education = () => {
              institute="GVHSS PAYYOLI"
              board="Board"
              boardname="Kerala Board of Public Examination"
-             marks="CGPA/%: 96%"/>
+             marks="CGPA/%: 80%"/>
              </div>
              <div className="edu_box">
             <EducationChild
