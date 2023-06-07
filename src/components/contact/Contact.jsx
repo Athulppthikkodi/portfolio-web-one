@@ -10,6 +10,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs.sendForm('service_xktnnaz', 'template_npzz82w', form.current, 'x57C33HijnAImOy_g')
+    alert('Form submitted successfully');
       e.target.reset()
   };
   return (
@@ -33,7 +34,8 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send/?phone=917034202754&text&type=phone_number&app_absent=0" target="_blank" rel="noreferrer">send a message</a>
           </div>
         </div>
-       
+        {/* {isSubmitting && <p>Submitting...</p>}
+      {message && <p>{message}</p>} */}
           <form ref={form} onSubmit={sendEmail} data-aos="fade-up"
           data-aos-duration="3000">
             <input name='name' type="text" placeholder='Your Full Name' required/>
