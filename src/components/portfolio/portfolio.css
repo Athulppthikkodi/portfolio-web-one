@@ -38,7 +38,8 @@
   .portfolio_box a{
     padding: 10px 24px;
     border-radius: 2px;
-    background-color: rgb(215 174 2);
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     color: white;
   }
   .portfolio_box a:hover{

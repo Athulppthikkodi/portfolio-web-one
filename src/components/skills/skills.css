@@ -9,25 +9,27 @@
 }
 .skills_frontend{
     text-align: center;
-    background-color: #f2efff21;
+    background-color: black;
     width: 40%;
     padding: 60px;
     border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out;
+    outline: 1px solid #06ff00b0;
 }
 .skills_frontend:hover{
- box-shadow: 0 0px 10px  #554f7c;;
+    box-shadow: 0 0px 10px white;
 }
 .skills_backend{
     text-align: center;
-    background-color: #f2efff21;;
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     width: 40%;
     padding: 60px;
     border-radius: 10px;
     transition: box-shadow 0.3s ease-in-out;
 }
 .skills_backend:hover{
-    box-shadow: 0 0px 10px  #554f7c;;
+    box-shadow: 0 0px 10px white;
    }
 .skills_progress{
     margin-bottom: 13px;
@@ -84,6 +86,7 @@
     .skills_frontend{
         width: 100%;
         margin-bottom: 20px;
+
     }
     .skills_backend{
         width: 100%;

@@ -34,13 +34,15 @@ border-radius: 15px;
     transform: rotate(0deg);
 }
 
+
 .about_cards{
     display: flex;
     justify-content: center;
     gap:20px; 
 }
 .card_experience{
-    background-color: #0e0e6a;
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     width: 50%;
     border-radius: 10px;
     padding: 15px 5px;
@@ -52,10 +54,11 @@ border-radius: 15px;
     transition: 1s;
 }
 .card_projects{
-    background-color: #440f5c;
+    background-color: black;
     width: 50%;
     border-radius: 10px;
     padding: 15px 5px;
+    outline: 1px solid #06ff00b0;
 }
 .card_projects:hover{
     background: var(--color-bg);
@@ -74,7 +77,8 @@ border-radius: 15px;
 .about_btn a{
     padding: 10px 24px;
     border-radius: 2px;
-    background-color: rgb(215 174 2);
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     color: white;
 }
 .about_btn a:hover{

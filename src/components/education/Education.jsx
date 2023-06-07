@@ -8,7 +8,7 @@ const Education = () => {
         <h5>What i studied</h5>
         <h2>Education</h2>
         <div className="education_boxes">
-          <div className="edu_box">
+          <div className="edu_box" data-aos="zoom-in-up" data-aos-duration="2000">
             <EducationChild
              standard="10th"
              institute="GVHSS PAYYOLI"
@@ -16,7 +16,7 @@ const Education = () => {
              boardname="Kerala Board of Public Examination"
              marks="CGPA/%: 96%"/>
           </div>
-          <div className="edu_box">
+          <div className="edu_box" data-aos="zoom-in-up" data-aos-duration="2500">
             <EducationChild
              standard="12th"
              institute="GVHSS PAYYOLI"
@@ -24,7 +24,7 @@ const Education = () => {
              boardname="Kerala Board of Public Examination"
              marks="CGPA/%: 80%"/>
              </div>
-             <div className="edu_box">
+             <div className="edu_box" data-aos="zoom-in-up" data-aos-duration="3000">
             <EducationChild
              standard="B.Tech"
              institute="Government Engineering College WAYANAD"

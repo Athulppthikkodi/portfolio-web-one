@@ -10,11 +10,11 @@ const About = () => {
       <h2>About Me</h2>
       <div className='container about_container'>
         <div className='about_me'>
-          <div className="about_me_img">
+          <div className="about_me_img" data-aos="fade-right" data-aos-duration="3000">
             <img src={me} alt="" />
           </div>
         </div>
-        <div className='about_content'>
+        <div className='about_content' data-aos="fade-up" data-aos-duration="3000">
           <div className="about_cards">
             <div className="card_experience">
               <div className="experience_icon">

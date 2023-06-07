@@ -4,6 +4,9 @@ import ContBtn from './ContBtn'
 import headImg from "../../assets/headImg.png"
 import HeaderSocials from './HeaderSocials'
 const Header = () => {
+  <script>
+
+  </script>
   return (
     <header id="home" >
       <div className='container header-container'>
@@ -12,7 +15,7 @@ const Header = () => {
       <h5>Frontend Developer</h5>
       <ContBtn/>
       <HeaderSocials/>
-      <div className='headImg'>
+      <div className='headImg' data-aos="zoom-out" data-aos-duration="3000">
         <img src={headImg} alt="" />
       </div>
       <a href="#contact" className='scroll_down'>Scroll down</a>

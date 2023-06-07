@@ -13,7 +13,8 @@
     text-align: center;
 }
 .contact_email{
-    background-color: #0e0e6a;
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     margin-bottom: 20px;
    padding: 40px;
    border-radius: 10px;
@@ -25,7 +26,8 @@
     transition: 1s;
 }
 .contact_watsup{
-    background-color: #440f5c;
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     padding: 40px;
     border-radius: 10px;
     
@@ -46,7 +48,7 @@ form input{
     width: 80%;
     padding: 10px;
     background: var(--color-bg);
-    outline: 1px solid #a17373e6;;
+    outline: 1px solid #06ff00b0;
     color: white;
 }
 form textarea{
@@ -54,14 +56,15 @@ form textarea{
     margin-bottom: 30px;
     padding: 10px;
     background: var(--color-bg);
-    outline: 1px solid #a17373e6;;
+    outline: 1px solid #06ff00b0;
     color: white;
 }
 form button{
     width: 100px;
     padding: 10px 24px;
     border-radius: 2px;
-    background-color: rgb(215 174 2);
+    background-color: black;
+    outline: 1px solid #06ff00b0;
     color: white;
     
 }

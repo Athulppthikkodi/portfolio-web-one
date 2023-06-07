@@ -6,7 +6,7 @@ const Skills = () => {
       <h5>What Skills I Have</h5>
       <h2>My Skills</h2>
       <div className="container skills_container">
-        <div className="skills_frontend">
+        <div className="skills_frontend"  data-aos="flip-left" data-aos-duration="3000">
             <div className="skills_progress">
               <h3>HTML<span>90%</span></h3>
               <div className='bar bar1'><span></span></div>
@@ -28,7 +28,7 @@ const Skills = () => {
               <div className='bar bar5'><span></span></div>
             </div>
         </div>
-        <div className="skills_backend">
+        <div className="skills_backend"  data-aos="flip-right" data-aos-duration="3000">
             <div className="skills_progress">
               <h3>Oracle SQL<span>85%</span></h3>
               <div className='bar bar6'><span></span></div>

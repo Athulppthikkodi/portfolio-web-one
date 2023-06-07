@@ -18,13 +18,15 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="container contact_container">
         <div className="contact_options">
-          <div className="contact_email">
+          <div className="contact_email" data-aos="fade-down"
+            data-aos-duration="3000">
             <AiOutlineMail/>
             <h4>Email</h4>
             <h5>athulpp2000@gmail.com</h5>
             <a href="mailto:athulpp2000@gmail.com" target="_blank" rel="noreferrer">send a message</a>
           </div>
-          <div className="contact_watsup">
+          <div className="contact_watsup" data-aos="fade-down"
+          data-aos-duration="2500">
             <SiWhatsapp/>
             <h4>Whatsapp</h4>
             <h5>+917034202754</h5>
@@ -32,7 +34,8 @@ const Contact = () => {
           </div>
         </div>
        
-          <form ref={form} onSubmit={sendEmail}>
+          <form ref={form} onSubmit={sendEmail} data-aos="fade-up"
+          data-aos-duration="3000">
             <input name='name' type="text" placeholder='Your Full Name' required/>
             <input name='email' type="email" placeholder='Your Email' required/>
             <textarea name="message" id="" cols="30" rows="10" placeholder='Your Message' required></textarea>
